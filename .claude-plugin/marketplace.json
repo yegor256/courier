@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "courier",
+  "owner": {
+    "email": "yegor256@gmail.com",
+    "name": "Yegor Bugayenko"
+  },
+  "plugins": [
+    {
+      "name": "courier",
+      "source": "./"
+    }
+  ]
+}
