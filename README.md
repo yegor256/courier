@@ -1,4 +1,4 @@
-# courier
+# A Claude Code Plugin for Submitting Pull Requests
 
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/yegor256/courier/blob/master/LICENSES/MIT.txt)
 
