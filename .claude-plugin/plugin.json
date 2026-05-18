@@ -3,13 +3,14 @@
     "email": "yegor256@gmail.com",
     "name": "Yegor Bugayenko"
   },
-  "description": "A single skill that submits the commits on the current local branch as a new GitHub pull request: pushes the branch to the remote, opens the pull request with a clear title and a short prose body that explains what changed and why, and pings the repository owner exactly once \u2014 it ships work that already exists rather than producing new commits",
+  "description": "A bundle of Claude Code skills that ship work already on disk: commit-changes-to-git stages only what the user named and writes one Conventional Commits message without pushing, and submit-a-pull-request pushes the current branch, opens a pull request with a short prose body explaining what changed and why, and pings the repository owner exactly once",
   "homepage": "https://github.com/yegor256/courier",
   "keywords": [
     "skills",
+    "git",
     "github",
+    "commits",
     "pull-requests",
-    "code-review",
     "automation"
   ],
   "license": "MIT",
