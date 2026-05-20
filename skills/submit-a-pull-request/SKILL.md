@@ -130,6 +130,12 @@ After the pull request is created, capture the new
   and use it for the follow-up comment in the next
   step.
 
+Skip the follow-up comment entirely when the
+  repository owner matches the authenticated GitHub
+  account — compare `gh api user --jq .login` with
+  the owner of the slug — because `@`-mentioning
+  yourself adds nothing to the pull request.
+
 Post one follow-up comment on the new pull request
   (for example with
   `gh pr comment <number> --repo <owner>/<repo> --body ...`)
@@ -146,8 +152,9 @@ Do not ping more than one account in the follow-up
   comment, do not @-mention the whole organization,
   and do not request a deadline or a priority label.
 
-Stop after the follow-up comment is posted: do not
-  open a second pull request, do not push another
-  branch, and do not start a follow-up change —
-  re-run this skill from the top for the next
-  branch.
+Stop after the follow-up comment is posted — or
+  immediately after the pull request when the comment
+  was skipped: do not open a second pull request, do
+  not push another branch, and do not start a
+  follow-up change — re-run this skill from the top
+  for the next branch.
