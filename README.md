@@ -2,7 +2,7 @@
 
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/yegor256/courier/blob/master/LICENSES/MIT.txt)
 
-A small bundle of Claude Code skills that ship the work
+A small bundle of [Claude Code] skills that ship the work
   the user already has on disk — they do not author new
   changes; they record and forward what the user already
   produced.
@@ -42,5 +42,4 @@ To update later, run `/plugin marketplace update yegor256`;
   to remove, run `/plugin uninstall courier@yegor256`.
 
 [yegor256/plugins]: https://github.com/yegor256/plugins
-
 [Claude Code]: https://code.claude.com/docs/en/skills
