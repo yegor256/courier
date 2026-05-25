@@ -12,8 +12,10 @@ Refuse to stage secrets and warn the user instead.
 Refuse to bundle unrelated changes into one commit.
 Confirm the file list and the subject with the user before committing.
 Respect the Conventional Commits 1.0.0 standard.
-Prepend the ticket number with a `#` to the description when the user named an issue.
-Derive the message from the diff and the conversation, not from the branch name.
+Prepend the ticket number to the description with a `#`.
+Do this when the user named an issue.
+Derive the message from the diff and the conversation.
+Never use the branch name as the source.
 Never add `Co-authored-by:` trailers, promotional lines, signatures, or emoji.
 Never override the author or the committer identity.
 Do not bypass hooks or signing unless the user asked for it.
