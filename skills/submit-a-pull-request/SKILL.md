@@ -24,6 +24,7 @@ Never add `Generated with` footers or `Co-Authored-By` AI trailers.
 Never add robot emoji.
 Use a closing keyword only when the user or a commit already cites the issue.
 The owner is the slug owner, or the top recent committer for an organization.
+Stop and ask the user when the owner cannot be determined.
 Post one follow-up comment `@`-mentioning the owner and offering to clarify.
 Skip the comment when the owner is the authenticated account.
 Keep the comment to one or two sentences.
