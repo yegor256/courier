@@ -18,6 +18,8 @@ Use an imperative-mood title, not `Fixes` or `Update`.
 Derive title and body from the commits and the diff, not the branch name.
 Write the body as a few short paragraphs.
 Cover what changes, why, and any follow-up.
+Quote a snippet of the most important change, no longer than ten lines.
+Trust code to convey the change better than prose.
 Write like a human.
 Avoid AI cadence, boilerplate openings, and buzzword strings.
 Never add `Generated with` footers or `Co-Authored-By` AI trailers.
