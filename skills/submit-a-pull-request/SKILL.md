@@ -9,7 +9,7 @@ description: |
 
 Target GitHub repository user named, or `origin` otherwise.
 Use repository's actual default branch as base.
-Never hard-code `main`.
+Resolve base branch at runtime, never hard-coding `main`.
 
 ## Preconditions
 
@@ -20,7 +20,8 @@ Confirm branch is up to date with remote default.
 
 ## Boundaries
 
-Do not modify files, amend, rebase, squash, build, test, or lint.
+Submit commits untouched.
+Skip editing, amending, rebasing, squashing, building, testing, and linting.
 
 ## Branch
 
@@ -38,12 +39,18 @@ Cover what changes, why, and any follow-up.
 Quote snippet of most important change, no longer than ten lines.
 Trust code to convey change better than prose.
 
+## Format
+
+Shape pull request as imperative title plus short prose body.
+Shape comment as one or two sentences.
+
 ## Voice
 
 Write like human.
-Avoid AI cadence, boilerplate openings, and buzzword strings.
-Never add `Generated with` footers or `Co-Authored-By` AI trailers.
-Never add robot emoji.
+Vary rhythm, never sliding into AI cadence.
+Open with substance, never with boilerplate or buzzword strings.
+End body on last sentence.
+Skip `Generated with` footers, `Co-Authored-By` trailers, and robot emoji.
 
 ## Closing
 
@@ -64,7 +71,16 @@ Mention owner in that comment.
 Offer to clarify in that comment.
 Keep comment to one or two sentences.
 Ping one account.
-Never request deadline.
+Let owner set their own timing.
+
+## Example
+
+Branch `42-retry` adds retry logic and user says "open PR".
+Push branch to `origin`.
+Title pull request `Add retry to courier client`.
+Write few short paragraphs covering change and motivation.
+Quote most important change, under ten lines.
+Ping owner once in follow-up comment.
 
 ## Stop
 

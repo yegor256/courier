@@ -12,9 +12,9 @@ Refuse to bundle unrelated changes into one commit.
 
 ## Boundaries
 
-Do not edit files, reformat, lint, test, or build before committing.
-Do not bypass hooks or signing unless user asked for it.
-Do not amend, rebase, force-push, or push to any remote.
+Commit files untouched, never reformatting, linting, testing, or building.
+Honor hooks and signing unless user asked to bypass them.
+Land one local commit, never amending, rebasing, force-pushing, or pushing.
 
 ## Staging
 
@@ -24,10 +24,13 @@ Warn user about skipped secrets instead.
 
 ## Message
 
-Respect Conventional Commits 1.0.0 standard.
+Respect Conventional Commits standard.
 Prepend ticket number to description with `#` when user named issue.
-Derive message from diff and conversation.
-Never use branch name as source.
+Derive message from diff and conversation, never from branch name.
+
+## Format
+
+Shape commit as `type: summary` subject, then optional body.
 
 ## Review
 
@@ -36,9 +39,18 @@ Show commit subject to user before committing.
 
 ## Authorship
 
-Never add `Co-authored-by:` trailers, promotional lines, signatures, or emoji.
-Never override author or committer identity.
+Limit message to its description.
+Skip `Co-authored-by:` trailers, promotional lines, signatures, and emoji.
+Preserve configured author and committer identity.
 
-## Stop
+## Example
 
+User fixes typo in `README.md` and says "commit it".
+Stage `README.md` alone.
+Write subject `docs: fix typo in README`.
+Land one commit carrying that subject.
+
+## Done
+
+Confirm one new commit appears after run.
 Stop after single commit lands.
