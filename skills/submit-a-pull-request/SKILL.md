@@ -63,16 +63,6 @@ For organization, use top recent committer as owner.
 Stop when owner stays unknown.
 Ask user to resolve it.
 
-## Comment
-
-Skip comment when owner is authenticated account.
-Post one follow-up comment to owner otherwise.
-Mention owner in that comment.
-Offer to clarify in that comment.
-Keep comment to one or two sentences.
-Ping one account.
-Let owner set their own timing.
-
 ## Example
 
 Branch `42-retry` adds retry logic and user says "open PR".
@@ -81,7 +71,3 @@ Title pull request `Add retry to courier client`.
 Write few short paragraphs covering change and motivation.
 Quote most important change, under ten lines.
 Ping owner once in follow-up comment.
-
-## Stop
-
-Stop after comment, or after pull request when you skip comment.
