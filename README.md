@@ -1,5 +1,6 @@
 # A Claude Code Plugin for Shipping Changes
 
+[![dogent](https://github.com/yegor256/courier/actions/workflows/dogent.yml/badge.svg)](https://github.com/yegor256/courier/actions/workflows/dogent.yml)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/yegor256/courier/blob/master/LICENSES/MIT.txt)
 
 A small bundle of [Claude Code] skills that ship the work
